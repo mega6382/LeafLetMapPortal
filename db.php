@@ -1,8 +1,4 @@
 <?php
- define("mysqlServer","localhost");
- define("mysqlDB","leaflet");
- define("mysqlUser","root");
- define("mysqlPass","");
 
  class connectToDB
  {
