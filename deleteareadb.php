@@ -3,7 +3,7 @@
 
  $id = intval($_POST['area']);
 
- connectToDB::deleteArea($id);
+ $conn->deleteArea($id);
 ?>
 <!DOCTYPE html>
 <html>

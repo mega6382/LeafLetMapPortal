@@ -5,7 +5,7 @@
  $geo = strip_tags($_POST['geo']);
  $keywords = strip_tags($_POST['keywords']);
 
- connectToDB::updateStreet( $id, $geo, $keywords);
+ $conn->updateStreet( $id, $geo, $keywords);
 ?>
 <!DOCTYPE html>
 <html>

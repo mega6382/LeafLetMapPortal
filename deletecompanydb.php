@@ -1,7 +1,7 @@
 <?php
  require_once("db.php");
  $id = intval($_POST['company']);
- connectToDB::deleteCompany($id);
+ $conn->deleteCompany($id);
 ?>
 <!DOCTYPE html>
 <html>

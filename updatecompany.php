@@ -9,7 +9,7 @@
  $telephone = strip_tags($_POST['telephone']);
  $keywords = strip_tags($_POST['keywords']);
 
- connectToDB::updateCompany( $id, $details, $latitude, $longitude, $telephone, $keywords);
+ $conn->updateCompany( $id, $details, $latitude, $longitude, $telephone, $keywords);
 ?>
 <!DOCTYPE html>
 <html>

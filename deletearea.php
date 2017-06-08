@@ -1,6 +1,6 @@
 <?php
  require_once("db.php");
- $arr = connectToDB::getAreasList();
+ $arr = $conn->getAreasList();
 ?>
 <!DOCTYPE html>
 <html>

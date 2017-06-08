@@ -1,6 +1,6 @@
 <?php
  require_once("db.php");
- $arr = connectToDB::getCompaniesList();
+ $arr = $conn->getCompaniesList();
 ?>
 <!DOCTYPE html>
 <html>

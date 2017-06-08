@@ -1,6 +1,6 @@
 <?php
  require_once("db.php");
- $arr = connectToDB::getStreetsList();
+ $arr = $conn->getStreetsList();
 ?>
 <!DOCTYPE html>
 <html>

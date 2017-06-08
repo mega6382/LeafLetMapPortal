@@ -1,8 +1,8 @@
 <?php
  require_once("db.php");
- $companies = connectToDB::getCompaniesList();
- $streets = connectToDB::getStreetsList();
- $areas = connectToDB::getAreasList();
+ $companies = $conn->getCompaniesList();
+ $streets = $conn->getStreetsList();
+ $areas = $conn->getAreasList();
 ?>
 <!DOCTYPE html>
 <html>

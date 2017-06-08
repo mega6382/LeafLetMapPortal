@@ -4,7 +4,7 @@ $street = strip_tags( $_POST['street'] );
 $geo = strip_tags( $_POST['geo'] );
 $keywords = strip_tags( $_POST['keywords'] );
 
- connectToDB::addStreet( $street, $geo, $keywords);
+ $conn->addStreet( $street, $geo, $keywords);
 
 ?>
 <!DOCTYPE html>

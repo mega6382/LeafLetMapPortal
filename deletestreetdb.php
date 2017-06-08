@@ -3,7 +3,7 @@
 
  $id = intval($_POST['street']);
 
- connectToDB::deleteStreet($id);
+ $conn->deleteStreet($id);
 ?>
 <!DOCTYPE html>
 <html>

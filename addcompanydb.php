@@ -9,7 +9,7 @@ $longitude = strip_tags($_POST['longitude']);
 $telephone = strip_tags($_POST['telephone']);
 $keywords = strip_tags($_POST['keywords']);
 
-connectToDB::addCompany($company, $details, $latitude, $longitude, $telephone, $keywords);
+$conn->addCompany($company, $details, $latitude, $longitude, $telephone, $keywords);
 ?>
 <!DOCTYPE html>
 <html>

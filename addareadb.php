@@ -5,7 +5,7 @@
  $geo = strip_tags($_POST['geo']);
  $keywords = strip_tags($_POST['keywords']);
 
- connectToDB::addArea( $area, $geo, $keywords);
+ $conn->addArea( $area, $geo, $keywords);
 ?>
 <!DOCTYPE html>
 <html>
